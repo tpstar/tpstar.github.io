@@ -1,0 +1,1 @@
+This is to try github pages to publish from site produced on my Mac.
