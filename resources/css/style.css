@@ -44,12 +44,9 @@ section {
     padding: 80px 0;
 }
 
-.box {
-    padding: 1%;
-}
-
 h1,
-h2 {
+h2,
+h3 {
     font-weight: 300;
 }
 
@@ -75,6 +72,11 @@ h2 {
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
 
 /* PARAGRAPHS */
 
@@ -220,4 +222,13 @@ header {
 
     position: absolute;
     text-align: center;
+}
+
+.skills-box {
+    width: 70%;
+    margin: 30px 0 0 15%;
+}
+
+.skills-box p {
+    margin-bottom: 10px;
 }
