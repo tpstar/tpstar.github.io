@@ -1,5 +1,5 @@
 /*
-Indigo Light:   #d0d8ff
+Indigo Light:   #D0D8ff
 Indigo Primary: #9ea7d8
 Indigo Dark:    #6F79A8
 */
@@ -51,9 +51,9 @@ h3 {
 }
 
 h1 {
+    color: #d0d8ff;
     margin-top: 0; /* remove empty margin on the top */
     margin-bottom: 100px;
-    color: #424242;
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
@@ -62,7 +62,7 @@ h1 {
 
 h1 span {
     font-weight: 500;
-    color: #6F79A8;
+    color: #fff;
 }
 
 h2 {
@@ -91,9 +91,9 @@ h3 {
 /* ------------------------------------------------*/
 
 header {
-    background-image: linear-gradient(rgb(235,235,235, 0.98), rgb(235, 235, 235, 0.1)), /* make background hazy */
-                      linear-gradient(0.25turn, rgb(235,235,235, 0.98), rgb(235, 235, 235, 0.1)),
-                      url(img/hanlee_laptop.jpg);
+    background-image: linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
     background-size: cover;
     background-position: center;
     height: 100vh; /* fill whole page with header */
@@ -127,7 +127,7 @@ header {
 #learn-more {
     font-weight: 300;
     padding: 8px 8px;
-    color: #424242;
+    color: #fff;
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
@@ -139,9 +139,8 @@ header {
     background-color: #6F79A8;
 }
 #learn-more {
-    color: #424242;;
     background-color: transparent;
-    border: 1px solid #6F79A8; /*make the button size the same as hover one*/
+    border: 1px solid #D0D8ff; /*make the button size the same as hover one*/
 }
 
 #learn-more:hover,
@@ -220,7 +219,7 @@ header {
 #selfie {
 
     position: absolute; /* absolute relative to #selfie-icons */
-    top: calc(50% - 78px); /* center the selfie */
+    top: calc(50% - 71px); /* center the selfie */
     left: calc(50% - 43px);
     display: block;
 
@@ -270,4 +269,5 @@ header {
 
 .skills-box p {
     margin-bottom: 10px;
+    color: #888;
 }
