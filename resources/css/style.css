@@ -69,7 +69,7 @@ h2 {
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
-    margin-bottom: 30px;
+    margin: 15px 0 25px;
     letter-spacing: 1px;
 }
 h2,
@@ -139,17 +139,56 @@ header {
     background-color: #6F79A8;
 }
 #learn-more {
-    color: #fff;
-    background-color: #6F79A8;
-    border: 1px solid transparent; /*make the button size the same as hover one*/
+    color: #424242;;
+    background-color: transparent;
+    border: 1px solid #6F79A8; /*make the button size the same as hover one*/
 }
 
 #learn-more:hover,
 #learn-more:active {
-    color: #424242;
-    background-color: transparent;
+    color: #fff;
+    background-color: #6F79A8;;
     border: 1px solid #6F79A8;
 }
+
+/* Sticky navi */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(111, 121, 168, 0.98);
+    -webkit-box-shadow: 0 2px 2px #efefef;
+    -moz-box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .logo {
+    /* display: none; */
+    height: 60px;
+    margin-top: 6px;
+}
+
+.sticky .main-nav { margin-top: 6px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #fff;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3 s;
+    -webkit-transition-property: transform; /* slow growing menus */
+    transition-property: transform;
+}
+
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {
+    -webkit-transform: scale(1.1); /* grow 110% when hovering nav menus*/
+    transform: scale(1.1);
+}
+
+
 
 /* main text box */
 
@@ -173,7 +212,7 @@ header {
 
 #selfie-icons {
     position: relative;
-    height: 250px;
+    height: 230px;
     width: 300px;
     margin: 0 auto;
 }
