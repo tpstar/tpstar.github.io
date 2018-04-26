@@ -135,8 +135,8 @@ header {
 }
 .main-nav li a:hover,
 .main-nav li a:active {
-    color: #fff;
-    background-color: #6F79A8;
+    color: #555;
+    background-color: #D0D8ff;
 }
 #learn-more {
     background-color: transparent;
@@ -145,9 +145,9 @@ header {
 
 #learn-more:hover,
 #learn-more:active {
-    color: #fff;
-    background-color: #6F79A8;;
-    border: 1px solid #6F79A8;
+    color: #555;
+    background-color: #D0D8ff;;
+    border: 1px solid #D0D8ff;
 }
 
 /* Sticky navi */
@@ -183,6 +183,7 @@ header {
 
 .sticky .main-nav li a:hover,
 .sticky .main-nav li a:active {
+    background-color: transparent;
     -webkit-transform: scale(1.1); /* grow 110% when hovering nav menus*/
     transform: scale(1.1);
 }
