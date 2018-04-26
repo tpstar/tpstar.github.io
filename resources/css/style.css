@@ -69,14 +69,27 @@ h2 {
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
-    margin: 15px 0 25px;
+    margin: 15px 0 0;
     letter-spacing: 1px;
 }
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #9ea7d8;
+    content: " ";
+    width: 150px;
+    margin: 5px auto 25px;
+}
+
 h2,
 h3 {
     text-transform: uppercase;
 }
 
+.box {
+    padding: 1%;
+}
 
 /* PARAGRAPHS */
 
@@ -212,7 +225,7 @@ header {
 
 #selfie-icons {
     position: relative;
-    height: 230px;
+    height: 220px;
     width: 300px;
     margin: 0 auto;
 }
@@ -271,4 +284,19 @@ header {
 .skills-box p {
     margin-bottom: 10px;
     color: #888;
+}
+
+
+/* ------------------------------------------------*/
+/* Portfolio */
+/* ------------------------------------------------*/
+
+.section-portfolio {
+    background-color: #f4f4f4;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
 }
