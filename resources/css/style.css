@@ -295,8 +295,45 @@ header {
     background-color: #f4f4f4;
 }
 
-.box img {
-    width: 100%;
+.box > img {
+    width: 100%; /* fit into div .col */
     height: auto;
     margin-bottom: 15px;
+}
+
+.box p {
+    font-size: 90%;
+}
+
+.btn-app {
+    text-decoration: none;
+}
+
+.btn-app img  {
+    height: 40px;
+    width: auto;
+    margin: 10px 10px -14px 0;
+}
+
+.btn-github:link,
+.btn-github:visited {
+    font-size: 16px;
+    color: #6F79A8;
+    padding:7px 15px;
+    font-weight: 300;
+    text-decoration: none;
+    border: 1px solid #6F79A8;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -moz-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-github:hover,
+.btn-github:active {
+    color: #fff;
+    background-color: #6F79A8;
 }
