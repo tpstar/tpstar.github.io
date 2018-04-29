@@ -334,6 +334,11 @@ header {
     border-radius: 5px;
 }
 
+.two-githubs {
+    padding: 7px 5px;
+    margin-right: 5px;
+}
+
 .btn-demo:link,
 .btn-demo:visited {
     color: #fff;
