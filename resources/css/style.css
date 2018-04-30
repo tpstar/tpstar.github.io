@@ -151,6 +151,7 @@ header {
     color: #555;
     background-color: #D0D8ff;
 }
+
 #learn-more {
     background-color: transparent;
     border: 1px solid #D0D8ff; /*make the button size the same as hover one*/
