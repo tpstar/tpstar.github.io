@@ -302,6 +302,18 @@ header {
     margin-bottom: 15px;
 }
 
+.box > a:first-child:link,
+.box > a:first-child:visited {
+  filter: grayscale(70%);
+}
+
+.box > a:first-child:hover,
+.box > a:first-child:active {
+  filter: grayscale(0%);
+}
+
+
+
 .box p {
     font-size: 90%;
 }
