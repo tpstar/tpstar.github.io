@@ -96,8 +96,8 @@ h3 {
 
 .long-paragraph {
     line-height: 145%;
-    width: 70%;
-    margin-left: 15%;
+    width: 80%;        /* center paragraph */
+    margin-left: 10%;  /* 100% - 2*10% = 80% */
 }
 
 /* ------------------------------------------------*/
