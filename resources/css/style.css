@@ -105,285 +105,15 @@ h3 {
 /* ------------------------------------------------*/
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
     background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
                       url(img/front-page.png);
     background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
                       url(img/front-page.png);
     background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
-                      url(img/front-page.png);
-    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
                       url(img/front-page.png);
     background-image: linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
-                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
                       url(img/front-page.png);
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -494,8 +224,18 @@ header {
 
 
 /* main text box */
+
+.main-text-box {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -40%);
+  -ms-transform: translate(0, -40%);
+  -moz-transform: translate(0, -40%);
+  -o-transform: translate(0, -40%);
+  transform: translate(0, -40%);
+}
 h1 {
-    margin: 98px 0 150px;
+    margin-bottom: 120px;
 }
 
 #learn-more {
@@ -571,8 +311,8 @@ h1 {
 }
 
 .skills-box {
-    width: 70%;
-    margin: 30px 0 0 15%;
+    width: 80%;
+    margin: 30px 0 0 10%;
 }
 
 .skills-box p {
