@@ -11,6 +11,8 @@ Indigo Dark:    #6F79A8
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box; /* to include border and padding in the width */
 }
 
@@ -53,7 +55,6 @@ h3 {
 h1 {
     color: #d0d8ff;
     margin-top: 0; /* remove empty margin on the top */
-    margin-bottom: 100px;
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
@@ -104,9 +105,287 @@ h3 {
 /* ------------------------------------------------*/
 
 header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(208, 216, 255, 0.4)), to(rgb(208, 216, 255, 0.4))), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -webkit-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -moz-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
+    background-image: -o-linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
+                      /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
+                      url(img/front-page.png);
     background-image: linear-gradient(rgb(208, 216, 255, 0.4), rgb(208, 216, 255, 0.4)), /* make background hazy */
                       /* linear-gradient(0.25turn, rgb(235,235,235, 0.6), rgb(235, 235, 235, 0.)), */
                       url(img/front-page.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
     background-position: center;
     height: 100vh; /* fill whole page with header */
@@ -190,30 +469,33 @@ header {
     padding: 16px 0;
     color: #fff;
     -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3 s;
+    -o-transition-duration: 0.3 s;
     transition-duration: 0.3 s;
     -webkit-transition-property: transform; /* slow growing menus */
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: -o-transform;
+    -moz-transition-property: transform, -moz-transform;
     transition-property: transform;
+    transition-property: transform, -webkit-transform, -moz-transform, -o-transform;
 }
 
 .sticky .main-nav li a:hover,
 .sticky .main-nav li a:active {
     background-color: transparent;
     -webkit-transform: scale(1.1); /* grow 110% when hovering nav menus*/
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
     transform: scale(1.1);
 }
 
 
 
 /* main text box */
-
-.main-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-48%, -30%);
-    -ms-transform: translate(-48%, -30%);
-    transform: translate(-48%, -30%);
+h1 {
+    margin: 98px 0 150px;
 }
 
 #learn-more {
@@ -234,12 +516,18 @@ header {
 #selfie {
 
     position: absolute; /* absolute relative to #selfie-icons */
+    top: -webkit-calc(50% - 71px);
+    top: -moz-calc(50% - 71px);
     top: calc(50% - 71px); /* center the selfie */
+    left: -webkit-calc(50% - 43px);
+    left: -moz-calc(50% - 43px);
     left: calc(50% - 43px);
     display: block;
 
     width: 100px;
     padding: 10px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
     border-radius: 100%;
     opacity: 0.7;
 }
@@ -251,10 +539,13 @@ header {
 
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
     transform: scale(0);
 
     -webkit-transition: all 0.4s ease-out;
     -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
 }
 
@@ -262,6 +553,8 @@ header {
     opacity: 1;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
     transform: scale(1);
 }
 
@@ -305,6 +598,9 @@ header {
 .box > a:first-child:link,
 .box > a:first-child:visited {
   /* filter: grayscale(70%); */
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
   opacity: 0.7;
 }
@@ -321,18 +617,8 @@ header {
     font-size: 90%;
 }
 
-.box p:not(#google-play) {
-    margin-bottom: 15px;
-}
-
-.btn-app {
-    text-decoration: none;
-}
-
-.btn-app img  {
-    height: 40px;
-    width: auto;
-    margin: 10px 10px -14px 0;
+.box p {
+    margin-bottom: 12px;
 }
 
 .btn-demo {
@@ -341,24 +627,38 @@ header {
 
 .btn-demo,
 .btn-github {
-    font-size: 16px;
-    padding:7px 15px;
+    font-size: 14px;
+    padding:5px 8px;
     font-weight: 300;
     text-decoration: none;
     border: 1px solid #6F79A8;
     -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
     border-radius: 5px;
 }
 
 .two-githubs {
     padding: 7px 5px;
-    margin-right: 5px;
+    margin-right: 0;
+}
+
+.two-githubs#left {
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+.two-githubs#right {
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
 }
 
 .btn-demo:link,
 .btn-demo:visited {
     color: #fff;
-    background: #9ea7d8;
+    background: #6F79A8;
     border: 1px solid #9ea7d8;
 }
 
@@ -366,6 +666,8 @@ header {
 .btn-github:visited {
     color: #6F79A8;
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -moz-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -413,6 +715,8 @@ header {
   width: 70px;
   height: 70px;
   color: white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
   text-align: center;
   padding-top: 12px;
@@ -430,12 +734,16 @@ header {
 #blog .item:active {
     -ms-transform: scale(1.03); /* IE 9 */
     -webkit-transform: scale(1.03); /* Safari */
+    -moz-transform: scale(1.03);
+    -o-transform: scale(1.03);
     transform: scale(1.03);
     -webkit-box-shadow: 10px 10px 50px 0px rgba(193,79,82,1);
     -moz-box-shadow: 10px 10px 50px 0px rgba(193,79,82,1);
     box-shadow: 10px 10px 50px 0px #6F79A8;
     z-index:9998;
     -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
 

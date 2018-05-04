@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/fontawesome-all.min.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link rel="stylesheet" href="resources/css/style.css">
     </head>
     <body>
@@ -25,10 +26,13 @@
                     </ul>
                 </div> <!--.row-->
             </nav>
-            <div class="main-text-box">
-                <h1>Hi, I'm <span>H</span>an Lee<br> Full Stack Developer</h1>
-                <a href="#about" id="learn-more">Learn more</a>
+            <div class="row">
+                <div class="main-text-box">
+                    <h1>Hi, I'm <span>H</span>an Lee<br> Full Stack Developer</h1>
+                    <a href="#about" id="learn-more">Learn more</a>
+                </div>
             </div>
+
         </header>
 
         <section class="section-about js--section-about" id="about">
@@ -90,8 +94,9 @@
                     </a>
                     <h3>l-train-tracker</h3>
                     <p id="google-play">Android app for tracking Chicago CTA trains</p>
-                    <a class="btn-app" href="https://play.google.com/store/apps/details?id=com.ltraintracker">
-                        <img src="resources/img/download-app-android.png" alt="Play Store Button">
+                    <a class="btn-demo" href="https://play.google.com/store/apps/details?id=com.ltraintracker">
+                        <i class="fab fa-google-play"></i>
+                        Google Play
                     </a>
                     <a class="btn-github" target="_blank" href="https://github.com/tpstar/l-train-tracker">
                         <i class="fab fa-github"></i>
@@ -121,13 +126,12 @@
                     <a class="btn-demo" target="_blank" href="http://chem-findr.herokuapp.com">
                         Demo
                     </a>
-                    <a class="btn-github two-githubs" target="_blank" href="https://github.com/tpstar/chem-prop-findr-api">
+                    <a class="btn-github two-githubs" id="left" target="_blank" href="https://github.com/tpstar/chem-prop-findr-api">
                         <i class="fab fa-github"></i>
-                        GitHub Rails
+                        Github Rails
                     </a>
-                    <a class="btn-github two-githubs" target="_blank" href="https://github.com/tpstar/chem-prop-findr-api">
-                        <i class="fab fa-github"></i>
-                        GitHub React
+                    <a class="btn-github two-githubs" id="right" target="_blank" href="https://github.com/tpstar/chem-prop-findr-api">
+                        React
                     </a>
                 </div>
             </div>
