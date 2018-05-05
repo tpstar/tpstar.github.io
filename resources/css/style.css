@@ -481,10 +481,10 @@ h1 {
     -moz-box-shadow: 10px 10px 50px 0px rgba(193,79,82,1);
     box-shadow: 10px 10px 50px 0px #6F79A8;
     z-index:9998;
-    -webkit-transition-duration: 0.5s;
-    -moz-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
-    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
 
 #blog p {

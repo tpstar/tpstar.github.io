@@ -1,3 +1,10 @@
+/* three to two to one column */
+
+/*  idea from http://www.java2s.com/Tutorials/HTML_CSS/CSS_Layout_How_to/Three_Column/Create_3_2_1_responsive_column_layout.htm */
+
+.span-321 { width: 32.26%; }
+.span-321:nth-child(3n+1) { margin-left: 0; }
+
 @media only screen and (max-width: 1200px) {
     .main-text-box {
         width: 100%;
@@ -11,4 +18,13 @@
      body { font-size: 18px; }
      section { padding: 60px 0; }
      .logo { height: 70px }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .span-321 { width: 49.2%; }
+    .span-321:nth-child(3n+1) { margin-left: 1.6%; }
+    .span-321:nth-child(2n+1) { margin-left: 0; }
+
+    #blog .item { margin: 0 25px }
 }
