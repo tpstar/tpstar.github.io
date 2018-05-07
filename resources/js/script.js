@@ -87,17 +87,23 @@ $(document).ready(function() {
     }
 
     window.onload = resizeAllGridItems();
-
     window.addEventListener("resize", resizeAllGridItems);
 
-    // allItems = document.getElementsByClassName("item");
-    // for(x=0;x<allItems.length;x++){
-    //    imagesLoaded( allItems[x], resizeInstance);
-    // }
-    //
-    // function resizeInstance(instance){
-    //    item = instance.elements[0];
-    //    resizeGridItem(item);
-    // }
+    /* Mobile navigation */
+    $('.js--nav-icon').click(function() {
+        var nav = $('.js--main-nav');
+        var icon = $('.js--nav-icon i');
+
+        nav.slideToggle(200);
+
+        if (icon.hasClass('fa-bars')) {
+            icon.addClass('fa-window-close');
+            icon.removeClass('fa-bars');
+        } else {
+            icon.addClass('fa-bars');
+            icon.removeClass('fa-window-close');
+        }
+    })
+
 
 });

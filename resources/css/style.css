@@ -131,7 +131,7 @@ header {
 
 /* Main navi */
 
-.main-nav{
+.main-nav {
     float: right;
     list-style: none; /* get rid of bullet points */
     margin-top: 40px;
@@ -173,6 +173,17 @@ header {
     border: 1px solid #D0D8ff;
 }
 
+/* collapsed mobile bar */
+
+.mobile-nav-icon {
+    color: #ddd;
+    font-size: 160%;
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
 /* Sticky navi */
 .sticky {
     position: fixed;
@@ -192,37 +203,33 @@ header {
     margin-top: 6px;
 }
 
+
 .sticky .main-nav { margin-top: 6px; }
+
+.sticky .main-nav li  {
+    margin: 8px 0 0 32px;
+}
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
-    padding: 16px 0;
+    padding: 8px 8px;
     color: #fff;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3 s;
     -o-transition-duration: 0.3 s;
     transition-duration: 0.3 s;
-    -webkit-transition-property: transform; /* slow growing menus */
-    -webkit-transition-property: -webkit-transform;
-    transition-property: -webkit-transform;
-    -o-transition-property: -o-transform;
-    -moz-transition-property: transform, -moz-transform;
-    transition-property: transform;
-    transition-property: transform, -webkit-transform, -moz-transform, -o-transform;
 }
 
 .sticky .main-nav li a:hover,
 .sticky .main-nav li a:active {
-    background-color: transparent;
-    -webkit-transform: scale(1.1); /* grow 110% when hovering nav menus*/
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
+    color: #6F79A8;
+    background-color: #D0D8ff;
 }
 
-
-
+.sticky .mobile-nav-icon {
+    margin-top: 16px;
+    font-size: 140%;
+}
 /* main text box */
 
 .main-text-box {
