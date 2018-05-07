@@ -33,12 +33,11 @@
 @media only screen and (max-width: 760px) {
     .main-nav { display: none; }
     .mobile-nav-icon { display: inline-block;}
-    .navi { position: relative }
     .main-nav { /*main nav displays by jQuery slideToggle */
         position: absolute;
-        top: 48px;
+        top: 56px;
         right: 0px;
-        padding-right: 12px;
+        padding-right: 100px;
         padding-bottom: 10px;
         background: #6b6f85;
         z-index: 1;
@@ -89,4 +88,5 @@
     .main-text-box {
         top: 55%;
     }
+
 }
