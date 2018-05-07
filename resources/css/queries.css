@@ -40,6 +40,8 @@
         right: 0px;
         padding-right: 12px;
         padding-bottom: 10px;
+        background: #6b6f85;
+        z-index: 1;
     }
 
     .main-nav li { display: block; }
@@ -77,5 +79,14 @@
 
     .skills-box > div {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    footer > .row > .span-1-of-2 {
+        width: 49.2%;
+    }
+    .main-text-box {
+        top: 55%;
     }
 }
