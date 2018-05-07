@@ -55,7 +55,7 @@
         margin-bottom: 10px;
     }
 
-    #proficient {
+    .skills-box > :nth-child(2) {
         width: 55%;
     }
 }
@@ -68,4 +68,14 @@
     }
 
     #blog .item { margin: 1% 6% }
+}
+
+@media only screen and (max-width: 550px) {
+    .skills-box > :nth-child(2) {
+        margin-bottom: 15px;
+    }
+
+    .skills-box > div {
+        width: 100%;
+    }
 }
