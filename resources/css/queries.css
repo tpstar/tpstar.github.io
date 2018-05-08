@@ -33,20 +33,26 @@
 @media only screen and (max-width: 760px) {
     .main-nav { display: none; }
     .mobile-nav-icon { display: inline-block;}
-    .main-nav { /*main nav displays by jQuery slideToggle */
+
+    /* slide toggle nav menu in mobile mode */
+    .js--nav-wrap { position: relative }
+    .js--main-nav { /*main nav displays by jQuery slideToggle */
         position: absolute;
-        top: 56px;
-        right: 0px;
-        padding-right: 100px;
-        padding-bottom: 10px;
+        margin-top: 0;
+        top: 96px;
+        left: 0;
+        width: 100%;
         background: #6b6f85;
         z-index: 1;
     }
 
-    .main-nav li { display: block; }
-
-    .sticky .main-nav {
-        margin-top: 10px;
+    .js--main-nav li {
+        display: block;
+        margin-right: 32px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    /* slide toggle nav menu in mobile mode */
+    .sticky .js--main-nav {
         background-color: #6F79A8;
     }
 
