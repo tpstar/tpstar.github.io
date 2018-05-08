@@ -52,6 +52,11 @@
         margin-right: 32px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
+
+    .js--main-nav a {
+        width: 100%;
+    }
+
     /* slide toggle sticky nav menu in mobile mode */
     .sticky .js--main-nav {
         background-color: #6F79A8;
