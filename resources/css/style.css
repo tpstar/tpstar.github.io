@@ -210,10 +210,13 @@ header {
 
 .sticky .main-nav { margin-top: 6px; }
 
+.sticky .main-nav li a {
+    margin-top: 6px;
+    color: #fff;
+}
+
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
-    padding: 16px 8px;
-    color: #fff;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3 s;
     -o-transition-duration: 0.3 s;

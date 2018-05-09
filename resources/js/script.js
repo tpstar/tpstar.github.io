@@ -103,7 +103,18 @@ $(document).ready(function() {
             icon.addClass('fa-bars');
             icon.removeClass('fa-window-close');
         }
-    })
+    });
+
+    $('.js--main-nav li a').click(function() {
+        var nav_list = $('.js--main-nav li');
+        var icon = $('.js--nav-icon i');
+
+        if (nav_list.css('display') === 'block') { //if navigation menu stacks vertically
+            $('.js--main-nav').slideToggle(200);
+            icon.addClass('fa-bars');
+            icon.removeClass('fa-window-close');
+        };
+    });
 
 
 });
