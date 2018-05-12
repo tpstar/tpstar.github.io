@@ -89,6 +89,16 @@ $(document).ready(function() {
     window.onload = resizeAllGridItems();
     window.addEventListener("resize", resizeAllGridItems);
 
+    allItems = document.getElementsByClassName("item"); //
+    for(x=0;x<allItems.length;x++){
+       imagesLoaded( allItems[x], resizeInstance);
+    }
+
+    function resizeInstance(instance){
+       item = instance.elements[0];
+       resizeGridItem(item);
+    }
+
     /* Mobile navigation */
     $('.js--nav-icon').click(function() {
         var nav = $('.js--main-nav');
