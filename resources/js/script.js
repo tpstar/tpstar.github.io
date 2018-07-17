@@ -69,7 +69,7 @@ $(document).ready(function() {
       offset: '60px;'
     });
 
-    /* For Grid Masonry (Blog) */
+    /* Grid Masonry Layout (Blog) */
 
     function resizeGridItem(item){
        grid = document.getElementsByClassName("grid")[0];
@@ -89,7 +89,7 @@ $(document).ready(function() {
     window.onload = resizeAllGridItems();
     window.addEventListener("resize", resizeAllGridItems);
 
-    allItems = document.getElementsByClassName("item"); //
+    allItems = document.getElementsByClassName("item"); //to calculate height of images when the image is fully loaded
     for(x=0;x<allItems.length;x++){
        imagesLoaded( allItems[x], resizeInstance);
     }
